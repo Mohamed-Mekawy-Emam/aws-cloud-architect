@@ -11,7 +11,7 @@ You have been asked to plan and provision a cost-effective AWS infrastructure fo
 <details>
 <summary>Answer</summary>
 
-[Infrastructure diagram](./Udacity_Diagram_1.pdf)
+[Infrastructure diagram](/design-provision-monitor-aws-Infra-at-scale/Task1/Udacity_Diagram_1.pdf)
 
 </details>
 
@@ -20,7 +20,7 @@ You have been asked to plan a SERVERLESS architecture schematic for a new applic
 <details>
 <summary>Answer</summary>
 
-[Infrastructure diagram](./Udacity_Diagram_2.pdf)
+[Infrastructure diagram](/design-provision-monitor-aws-Infra-at-scale/Task1/Udacity_Diagram_2.pdf)
 
 </details>
 
@@ -31,7 +31,7 @@ Use the AWS Pricing Calculator to estimate how much it will cost to run the serv
 <details>
 <summary>Answer</summary>
 
-[Initial Cost Estimate](./Initial_Cost_Estimate.csv)
+[Initial Cost Estimate](/design-provision-monitor-aws-Infra-at-scale/Task2/Initial_Cost_Estimate.csv)
 
 </details>
 
@@ -40,7 +40,7 @@ Your budget has been reduced
 <details>
 <summary>Answer</summary>
 
-[Reduced Cost Estimate](./Reduced_Cost_Estimate.csv)
+[Reduced Cost Estimate](/design-provision-monitor-aws-Infra-at-scale/Task2/Reduced_Cost_Estimate.csv)
 
 </details>
 
@@ -49,7 +49,7 @@ Your budget has been increased
 <details>
 <summary>Answer</summary>
 
-[Increased_Cost Estimate](./Increased_Cost_Estimate.csv)
+[Increased_Cost Estimate](/design-provision-monitor-aws-Infra-at-scale/Task2/Increased_Cost_Estimate.csv)
 
 </details>
 
@@ -58,9 +58,9 @@ Your budget has been increased
 <details>
 <summary>Answer</summary>
 
-![Password Policy](./udacity_password_policy.png)
+![Password Policy](/design-provision-monitor-aws-Infra-at-scale/Task3/udacity_password_policy.png)
 
-[CloudTrail Log](./UdacityCloudTrailLog.csv)
+[CloudTrail Log](/design-provision-monitor-aws-Infra-at-scale/Task3/UdacityCloudTrailLog.csv)
 
 </details>
 
@@ -69,7 +69,7 @@ Your budget has been increased
 <details>
 <summary>Answer</summary>
 
-![CloudWatch Alarm](./CloudWatch_alarm.png)
+![CloudWatch Alarm](/design-provision-monitor-aws-Infra-at-scale/Task4/CloudWatch_alarm.png)
 
 </details>
 
@@ -92,9 +92,9 @@ Your budget has been increased
 <details>
 <summary>Answer</summary>
 
-![Terraform_1_1](./Terraform_1_1.png)
+![Terraform_1_1](/design-provision-monitor-aws-Infra-at-scale/Task5/Terraform_1_1.png)
 
-![Terraform_1_2](./Terraform_1_2.png)
+![Terraform_1_2](/design-provision-monitor-aws-Infra-at-scale/Task5/Terraform_1_2.png)
 
 </details>
 
@@ -113,11 +113,11 @@ Your budget has been increased
 <details>
 <summary>Answer</summary>
 
-![Terraform_2_1](./Terraform_2_1.png)
+![Terraform_2_1](/design-provision-monitor-aws-Infra-at-scale/Task5/Terraform_2_1.png)
 
-![Terraform_2_2](./Terraform_2_2.png)
+![Terraform_2_2](/design-provision-monitor-aws-Infra-at-scale/Task5/Terraform_2_2.png)
 
-![Terraform_2_3](./Terraform_2_3.png)
+![Terraform_2_3](/design-provision-monitor-aws-Infra-at-scale/Task5/Terraform_2_3.png)
 
 </details>
 
@@ -126,6 +126,6 @@ Your budget has been increased
 <details>
 <summary>Answer</summary>
 
-![Terraform destroyed](./Terraform_destroyed.png)
+![Terraform destroyed](/design-provision-monitor-aws-Infra-at-scale/Task6/Terraform_destroyed.png)
 
 </details>
