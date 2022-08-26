@@ -1,0 +1,1874 @@
+      + tags_all                             = (known after apply)
+      + tenancy                              = (known after apply)
+      + user_data                            = (known after apply)
+      + user_data_base64                     = (known after apply)
+      + user_data_replace_on_change          = false
+      + vpc_security_group_ids               = (known after apply)
+
+      + capacity_reservation_specification {
+          + capacity_reservation_preference = (known after apply)
+
+          + capacity_reservation_target {
+              + capacity_reservation_id                 = (known after apply)
+              + capacity_reservation_resource_group_arn = (known after apply)
+            }
+        }
+
+      + ebs_block_device {
+          + delete_on_termination = (known after apply)
+          + device_name           = (known after apply)
+          + encrypted             = (known after apply)
+          + iops                  = (known after apply)
+          + kms_key_id            = (known after apply)
+          + snapshot_id           = (known after apply)
+          + tags                  = (known after apply)
+          + throughput            = (known after apply)
+          + volume_id             = (known after apply)
+          + volume_size           = (known after apply)
+          + volume_type           = (known after apply)
+        }
+
+      + enclave_options {
+          + enabled = (known after apply)
+        }
+
+      + ephemeral_block_device {
+          + device_name  = (known after apply)
+          + no_device    = (known after apply)
+          + virtual_name = (known after apply)
+        }
+
+      + maintenance_options {
+          + auto_recovery = (known after apply)
+        }
+
+      + metadata_options {
+          + http_endpoint               = (known after apply)
+          + http_put_response_hop_limit = (known after apply)
+          + http_tokens                 = (known after apply)
+          + instance_metadata_tags      = (known after apply)
+        }
+
+      + network_interface {
+          + delete_on_termination = (known after apply)
+          + device_index          = (known after apply)
+          + network_card_index    = (known after apply)
+          + network_interface_id  = (known after apply)
+        }
+
+      + private_dns_name_options {
+          + enable_resource_name_dns_a_record    = (known after apply)
+          + enable_resource_name_dns_aaaa_record = (known after apply)
+          + hostname_type                        = (known after apply)
+        }
+
+      + root_block_device {
+          + delete_on_termination = (known after apply)
+          + device_name           = (known after apply)
+          + encrypted             = (known after apply)
+          + iops                  = (known after apply)
+          + kms_key_id            = (known after apply)
+          + tags                  = (known after apply)
+          + throughput            = (known after apply)
+          + volume_id             = (known after apply)
+          + volume_size           = (known after apply)
+          + volume_type           = (known after apply)
+        }
+    }
+
+  # aws_instance.Udacity-T2[1] will be created
+  + resource "aws_instance" "Udacity-T2" {
+      + ami                                  = "ami-05fa00d4c63e32376"
+      + arn                                  = (known after apply)
+      + associate_public_ip_address          = (known after apply)
+      + availability_zone                    = (known after apply)
+      + cpu_core_count                       = (known after apply)
+      + cpu_threads_per_core                 = (known after apply)
+      + disable_api_stop                     = (known after apply)
+      + disable_api_termination              = (known after apply)
+      + ebs_optimized                        = (known after apply)
+      + get_password_data                    = false
+      + host_id                              = (known after apply)
+      + id                                   = (known after apply)
+      + instance_initiated_shutdown_behavior = (known after apply)
+      + instance_state                       = (known after apply)
+      + instance_type                        = "t2.micro"
+      + ipv6_address_count                   = (known after apply)
+      + ipv6_addresses                       = (known after apply)
+      + key_name                             = (known after apply)
+      + monitoring                           = (known after apply)
+      + outpost_arn                          = (known after apply)
+      + password_data                        = (known after apply)
+      + placement_group                      = (known after apply)
+      + placement_partition_number           = (known after apply)
+      + primary_network_interface_id         = (known after apply)
+      + private_dns                          = (known after apply)
+      + private_ip                           = (known after apply)
+      + public_dns                           = (known after apply)
+      + public_ip                            = (known after apply)
+      + secondary_private_ips                = (known after apply)
+      + security_groups                      = (known after apply)
+      + source_dest_check                    = true
+      + subnet_id                            = (known after apply)
+      + tags_all                             = (known after apply)
+      + tenancy                              = (known after apply)
+      + user_data                            = (known after apply)
+      + user_data_base64                     = (known after apply)
+      + user_data_replace_on_change          = false
+      + vpc_security_group_ids               = (known after apply)
+
+      + capacity_reservation_specification {
+          + capacity_reservation_preference = (known after apply)
+
+          + capacity_reservation_target {
+              + capacity_reservation_id                 = (known after apply)
+              + capacity_reservation_resource_group_arn = (known after apply)
+            }
+        }
+
+      + ebs_block_device {
+          + delete_on_termination = (known after apply)
+          + device_name           = (known after apply)
+          + encrypted             = (known after apply)
+          + iops                  = (known after apply)
+          + kms_key_id            = (known after apply)
+          + snapshot_id           = (known after apply)
+          + tags                  = (known after apply)
+          + throughput            = (known after apply)
+          + volume_id             = (known after apply)
+          + volume_size           = (known after apply)
+          + volume_type           = (known after apply)
+        }
+
+      + enclave_options {
+          + enabled = (known after apply)
+        }
+
+      + ephemeral_block_device {
+          + device_name  = (known after apply)
+          + no_device    = (known after apply)
+          + virtual_name = (known after apply)
+        }
+
+      + maintenance_options {
+          + auto_recovery = (known after apply)
+        }
+
+      + metadata_options {
+          + http_endpoint               = (known after apply)
+          + http_put_response_hop_limit = (known after apply)
+          + http_tokens                 = (known after apply)
+          + instance_metadata_tags      = (known after apply)
+        }
+
+      + network_interface {
+          + delete_on_termination = (known after apply)
+          + device_index          = (known after apply)
+          + network_card_index    = (known after apply)
+          + network_interface_id  = (known after apply)
+        }
+
+      + private_dns_name_options {
+          + enable_resource_name_dns_a_record    = (known after apply)
+          + enable_resource_name_dns_aaaa_record = (known after apply)
+          + hostname_type                        = (known after apply)
+        }
+
+      + root_block_device {
+          + delete_on_termination = (known after apply)
+          + device_name           = (known after apply)
+          + encrypted             = (known after apply)
+          + iops                  = (known after apply)
+          + kms_key_id            = (known after apply)
+          + tags                  = (known after apply)
+          + throughput            = (known after apply)
+          + volume_id             = (known after apply)
+          + volume_size           = (known after apply)
+          + volume_type           = (known after apply)
+        }
+    }
+
+  # aws_instance.Udacity-T2[2] will be created
+  + resource "aws_instance" "Udacity-T2" {
+      + ami                                  = "ami-05fa00d4c63e32376"
+      + arn                                  = (known after apply)
+      + associate_public_ip_address          = (known after apply)
+      + availability_zone                    = (known after apply)
+      + cpu_core_count                       = (known after apply)
+      + cpu_threads_per_core                 = (known after apply)
+      + disable_api_stop                     = (known after apply)
+      + disable_api_termination              = (known after apply)
+      + ebs_optimized                        = (known after apply)
+      + get_password_data                    = false
+      + host_id                              = (known after apply)
+      + id                                   = (known after apply)
+      + instance_initiated_shutdown_behavior = (known after apply)
+      + instance_state                       = (known after apply)
+      + instance_type                        = "t2.micro"
+      + ipv6_address_count                   = (known after apply)
+      + ipv6_addresses                       = (known after apply)
+      + key_name                             = (known after apply)
+      + monitoring                           = (known after apply)
+      + outpost_arn                          = (known after apply)
+      + password_data                        = (known after apply)
+      + placement_group                      = (known after apply)
+      + placement_partition_number           = (known after apply)
+      + primary_network_interface_id         = (known after apply)
+      + private_dns                          = (known after apply)
+      + private_ip                           = (known after apply)
+      + public_dns                           = (known after apply)
+      + public_ip                            = (known after apply)
+      + secondary_private_ips                = (known after apply)
+      + security_groups                      = (known after apply)
+      + source_dest_check                    = true
+      + subnet_id                            = (known after apply)
+      + tags_all                             = (known after apply)
+      + tenancy                              = (known after apply)
+      + user_data                            = (known after apply)
+      + user_data_base64                     = (known after apply)
+      + user_data_replace_on_change          = false
+      + vpc_security_group_ids               = (known after apply)
+
+      + capacity_reservation_specification {
+          + capacity_reservation_preference = (known after apply)
+
+          + capacity_reservation_target {
+              + capacity_reservation_id                 = (known after apply)
+              + capacity_reservation_resource_group_arn = (known after apply)
+            }
+        }
+
+      + ebs_block_device {
+          + delete_on_termination = (known after apply)
+          + device_name           = (known after apply)
+          + encrypted             = (known after apply)
+          + iops                  = (known after apply)
+          + kms_key_id            = (known after apply)
+          + snapshot_id           = (known after apply)
+          + tags                  = (known after apply)
+          + throughput            = (known after apply)
+          + volume_id             = (known after apply)
+          + volume_size           = (known after apply)
+          + volume_type           = (known after apply)
+        }
+
+      + enclave_options {
+          + enabled = (known after apply)
+        }
+
+      + ephemeral_block_device {
+          + device_name  = (known after apply)
+          + no_device    = (known after apply)
+          + virtual_name = (known after apply)
+        }
+
+      + maintenance_options {
+          + auto_recovery = (known after apply)
+        }
+
+      + metadata_options {
+          + http_endpoint               = (known after apply)
+          + http_put_response_hop_limit = (known after apply)
+          + http_tokens                 = (known after apply)
+          + instance_metadata_tags      = (known after apply)
+        }
+
+      + network_interface {
+          + delete_on_termination = (known after apply)
+          + device_index          = (known after apply)
+          + network_card_index    = (known after apply)
+          + network_interface_id  = (known after apply)
+        }
+
+      + private_dns_name_options {
+          + enable_resource_name_dns_a_record    = (known after apply)
+          + enable_resource_name_dns_aaaa_record = (known after apply)
+          + hostname_type                        = (known after apply)
+        }
+
+      + root_block_device {
+          + delete_on_termination = (known after apply)
+          + device_name           = (known after apply)
+          + encrypted             = (known after apply)
+          + iops                  = (known after apply)
+          + kms_key_id            = (known after apply)
+          + tags                  = (known after apply)
+          + throughput            = (known after apply)
+          + volume_id             = (known after apply)
+          + volume_size           = (known after apply)
+          + volume_type           = (known after apply)
+        }
+    }
+
+  # aws_instance.Udacity-T2[3] will be created
+  + resource "aws_instance" "Udacity-T2" {
+      + ami                                  = "ami-05fa00d4c63e32376"
+      + arn                                  = (known after apply)
+      + associate_public_ip_address          = (known after apply)
+      + availability_zone                    = (known after apply)
+      + cpu_core_count                       = (known after apply)
+      + cpu_threads_per_core                 = (known after apply)
+      + disable_api_stop                     = (known after apply)
+      + disable_api_termination              = (known after apply)
+      + ebs_optimized                        = (known after apply)
+      + get_password_data                    = false
+      + host_id                              = (known after apply)
+      + id                                   = (known after apply)
+      + instance_initiated_shutdown_behavior = (known after apply)
+      + instance_state                       = (known after apply)
+      + instance_type                        = "t2.micro"
+      + ipv6_address_count                   = (known after apply)
+      + ipv6_addresses                       = (known after apply)
+      + key_name                             = (known after apply)
+      + monitoring                           = (known after apply)
+      + outpost_arn                          = (known after apply)
+      + password_data                        = (known after apply)
+      + placement_group                      = (known after apply)
+      + placement_partition_number           = (known after apply)
+      + primary_network_interface_id         = (known after apply)
+      + private_dns                          = (known after apply)
+      + private_ip                           = (known after apply)
+      + public_dns                           = (known after apply)
+      + public_ip                            = (known after apply)
+      + secondary_private_ips                = (known after apply)
+      + security_groups                      = (known after apply)
+      + source_dest_check                    = true
+      + subnet_id                            = (known after apply)
+      + tags_all                             = (known after apply)
+      + tenancy                              = (known after apply)
+      + user_data                            = (known after apply)
+      + user_data_base64                     = (known after apply)
+      + user_data_replace_on_change          = false
+      + vpc_security_group_ids               = (known after apply)
+
+      + capacity_reservation_specification {
+          + capacity_reservation_preference = (known after apply)
+
+          + capacity_reservation_target {
+              + capacity_reservation_id                 = (known after apply)
+              + capacity_reservation_resource_group_arn = (known after apply)
+            }
+        }
+
+      + ebs_block_device {
+          + delete_on_termination = (known after apply)
+          + device_name           = (known after apply)
+          + encrypted             = (known after apply)
+          + iops                  = (known after apply)
+          + kms_key_id            = (known after apply)
+          + snapshot_id           = (known after apply)
+          + tags                  = (known after apply)
+          + throughput            = (known after apply)
+          + volume_id             = (known after apply)
+          + volume_size           = (known after apply)
+          + volume_type           = (known after apply)
+        }
+
+      + enclave_options {
+          + enabled = (known after apply)
+        }
+
+      + ephemeral_block_device {
+          + device_name  = (known after apply)
+          + no_device    = (known after apply)
+          + virtual_name = (known after apply)
+        }
+
+      + maintenance_options {
+          + auto_recovery = (known after apply)
+        }
+
+      + metadata_options {
+          + http_endpoint               = (known after apply)
+          + http_put_response_hop_limit = (known after apply)
+          + http_tokens                 = (known after apply)
+          + instance_metadata_tags      = (known after apply)
+        }
+
+      + network_interface {
+          + delete_on_termination = (known after apply)
+          + device_index          = (known after apply)
+          + network_card_index    = (known after apply)
+          + network_interface_id  = (known after apply)
+        }
+
+      + private_dns_name_options {
+          + enable_resource_name_dns_a_record    = (known after apply)
+          + enable_resource_name_dns_aaaa_record = (known after apply)
+          + hostname_type                        = (known after apply)
+        }
+
+      + root_block_device {
+          + delete_on_termination = (known after apply)
+          + device_name           = (known after apply)
+          + encrypted             = (known after apply)
+          + iops                  = (known after apply)
+          + kms_key_id            = (known after apply)
+          + tags                  = (known after apply)
+          + throughput            = (known after apply)
+          + volume_id             = (known after apply)
+          + volume_size           = (known after apply)
+          + volume_type           = (known after apply)
+        }
+    }
+
+Plan: 6 to add, 0 to change, 0 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+aws_instance.Udacity-T2[2]: Creating...
+aws_instance.Udacity-M4[1]: Creating...
+aws_instance.Udacity-T2[3]: Creating...
+aws_instance.Udacity-M4[0]: Creating...
+aws_instance.Udacity-T2[0]: Creating...
+aws_instance.Udacity-T2[1]: Creating...
+aws_instance.Udacity-M4[0]: Still creating... [10s elapsed]
+aws_instance.Udacity-T2[2]: Still creating... [10s elapsed]
+aws_instance.Udacity-T2[1]: Still creating... [10s elapsed]
+aws_instance.Udacity-T2[3]: Still creating... [10s elapsed]
+aws_instance.Udacity-T2[0]: Still creating... [10s elapsed]
+aws_instance.Udacity-M4[1]: Still creating... [10s elapsed]
+aws_instance.Udacity-T2[1]: Still creating... [20s elapsed]
+aws_instance.Udacity-M4[1]: Still creating... [20s elapsed]
+aws_instance.Udacity-T2[0]: Still creating... [20s elapsed]
+aws_instance.Udacity-M4[0]: Still creating... [20s elapsed]
+aws_instance.Udacity-T2[3]: Still creating... [20s elapsed]
+aws_instance.Udacity-T2[2]: Still creating... [20s elapsed]
+aws_instance.Udacity-T2[2]: Still creating... [30s elapsed]
+aws_instance.Udacity-T2[0]: Still creating... [30s elapsed]
+aws_instance.Udacity-M4[0]: Still creating... [30s elapsed]
+aws_instance.Udacity-T2[1]: Still creating... [30s elapsed]
+aws_instance.Udacity-T2[3]: Still creating... [30s elapsed]
+aws_instance.Udacity-M4[1]: Still creating... [30s elapsed]
+aws_instance.Udacity-M4[1]: Creation complete after 34s [id=i-0ec37a074ff5d4590]
+aws_instance.Udacity-M4[0]: Creation complete after 35s [id=i-0f12b4f3283fd7b15]
+aws_instance.Udacity-T2[1]: Creation complete after 35s [id=i-0e9ed33a0f9d5f5a3]
+aws_instance.Udacity-T2[2]: Still creating... [40s elapsed]
+aws_instance.Udacity-T2[3]: Still creating... [40s elapsed]
+aws_instance.Udacity-T2[0]: Still creating... [40s elapsed]
+aws_instance.Udacity-T2[2]: Creation complete after 45s [id=i-05bc60fb39e254900]
+aws_instance.Udacity-T2[3]: Creation complete after 45s [id=i-0b46822b8509eb46a]
+aws_instance.Udacity-T2[0]: Still creating... [50s elapsed]
+aws_instance.Udacity-T2[0]: Creation complete after 56s [id=i-001d9ba3cf8031dc5]
+
+Apply complete! Resources: 6 added, 0 changed, 0 destroyed.
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5/Exercise_1        
+$ terraform plan
+aws_instance.Udacity-M4[1]: Refreshing state... [id=i-0ec37a074ff5d4590]
+aws_instance.Udacity-T2[1]: Refreshing state... [id=i-0e9ed33a0f9d5f5a3]
+aws_instance.Udacity-T2[2]: Refreshing state... [id=i-05bc60fb39e254900]
+aws_instance.Udacity-M4[0]: Refreshing state... [id=i-0f12b4f3283fd7b15]
+aws_instance.Udacity-T2[3]: Refreshing state... [id=i-0b46822b8509eb46a]
+aws_instance.Udacity-T2[0]: Refreshing state... [id=i-001d9ba3cf8031dc5]
+
+Note: Objects have changed outside of Terraform
+
+Terraform detected the following changes made outside of Terraform since the last "terraform apply":
+
+  # aws_instance.Udacity-M4[0] has changed
+  ~ resource "aws_instance" "Udacity-M4" {
+        id                                   = "i-0f12b4f3283fd7b15"
+      + tags                                 = {}
+        # (30 unchanged attributes hidden)
+
+
+
+
+
+
+        # (6 unchanged blocks hidden)
+    }
+
+  # aws_instance.Udacity-M4[1] has changed
+  ~ resource "aws_instance" "Udacity-M4" {
+        id                                   = "i-0ec37a074ff5d4590"
+      + tags                                 = {}
+        # (30 unchanged attributes hidden)
+
+
+
+
+
+
+        # (6 unchanged blocks hidden)
+    }
+
+  # aws_instance.Udacity-T2[0] has changed
+  ~ resource "aws_instance" "Udacity-T2" {
+        id                                   = "i-001d9ba3cf8031dc5"
+      + tags                                 = {}
+        # (30 unchanged attributes hidden)
+
+
+
+
+
+
+
+        # (7 unchanged blocks hidden)
+    }
+
+  # aws_instance.Udacity-T2[1] has changed
+  ~ resource "aws_instance" "Udacity-T2" {
+        id                                   = "i-0e9ed33a0f9d5f5a3"
+      + tags                                 = {}
+        # (30 unchanged attributes hidden)
+
+
+
+
+
+
+
+        # (7 unchanged blocks hidden)
+    }
+
+  # aws_instance.Udacity-T2[2] has changed
+  ~ resource "aws_instance" "Udacity-T2" {
+        id                                   = "i-05bc60fb39e254900"
+      + tags                                 = {}
+        # (30 unchanged attributes hidden)
+
+
+
+
+
+
+
+        # (7 unchanged blocks hidden)
+    }
+
+  # aws_instance.Udacity-T2[3] has changed
+  ~ resource "aws_instance" "Udacity-T2" {
+        id                                   = "i-0b46822b8509eb46a"
+      + tags                                 = {}
+        # (30 unchanged attributes hidden)
+
+
+
+
+
+
+
+        # (7 unchanged blocks hidden)
+    }
+
+
+Unless you have made equivalent changes to your configuration, or ignored the relevant attributes using ignore_changes, the following plan may   
+include actions to undo or respond to these changes.
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:       
+  - destroy
+
+Terraform will perform the following actions:
+
+  # aws_instance.Udacity-M4[0] will be destroyed
+  # (because index [0] is out of range for count)
+  - resource "aws_instance" "Udacity-M4" {
+      - ami                                  = "ami-05fa00d4c63e32376" -> null
+      - arn                                  = "arn:aws:ec2:us-east-1:230626268602:instance/i-0f12b4f3283fd7b15" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "us-east-1b" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 2 -> null
+      - disable_api_stop                     = false -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - id                                   = "i-0f12b4f3283fd7b15" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "m4.large" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - monitoring                           = false -> null
+      - primary_network_interface_id         = "eni-062aac3965c856722" -> null
+      - private_dns                          = "ip-172-31-81-164.ec2.internal" -> null
+      - private_ip                           = "172.31.81.164" -> null
+      - public_dns                           = "ec2-3-90-43-136.compute-1.amazonaws.com" -> null
+      - public_ip                            = "3.90.43.136" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [
+          - "default",
+        ] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-0b482774a861b5a3d" -> null
+      - tags                                 = {} -> null
+      - tags_all                             = {} -> null
+      - tenancy                              = "default" -> null
+      - user_data_replace_on_change          = false -> null
+      - vpc_security_group_ids               = [
+          - "sg-0ec157b25ac1e0a98",
+        ] -> null
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - maintenance_options {
+          - auto_recovery = "default" -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+          - instance_metadata_tags      = "disabled" -> null
+        }
+
+      - private_dns_name_options {
+          - enable_resource_name_dns_a_record    = false -> null
+          - enable_resource_name_dns_aaaa_record = false -> null
+          - hostname_type                        = "ip-name" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-02f197141ee309ab2" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+        }
+    }
+
+  # aws_instance.Udacity-M4[1] will be destroyed
+  # (because index [1] is out of range for count)
+  - resource "aws_instance" "Udacity-M4" {
+      - ami                                  = "ami-05fa00d4c63e32376" -> null
+      - arn                                  = "arn:aws:ec2:us-east-1:230626268602:instance/i-0ec37a074ff5d4590" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "us-east-1b" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 2 -> null
+      - disable_api_stop                     = false -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - id                                   = "i-0ec37a074ff5d4590" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "m4.large" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - monitoring                           = false -> null
+      - primary_network_interface_id         = "eni-0e3cd550b43294d96" -> null
+      - private_dns                          = "ip-172-31-90-26.ec2.internal" -> null
+      - private_ip                           = "172.31.90.26" -> null
+      - public_dns                           = "ec2-54-86-4-112.compute-1.amazonaws.com" -> null
+      - public_ip                            = "54.86.4.112" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [
+          - "default",
+        ] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-0b482774a861b5a3d" -> null
+      - tags                                 = {} -> null
+      - tags_all                             = {} -> null
+      - tenancy                              = "default" -> null
+      - user_data_replace_on_change          = false -> null
+      - vpc_security_group_ids               = [
+          - "sg-0ec157b25ac1e0a98",
+        ] -> null
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - maintenance_options {
+          - auto_recovery = "default" -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+          - instance_metadata_tags      = "disabled" -> null
+        }
+
+      - private_dns_name_options {
+          - enable_resource_name_dns_a_record    = false -> null
+          - enable_resource_name_dns_aaaa_record = false -> null
+          - hostname_type                        = "ip-name" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-0f8118cccd39006b8" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+        }
+    }
+
+Plan: 0 to add, 0 to change, 2 to destroy.
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+
+Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply"  
+now.
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5/Exercise_1        
+$ terraform apply
+aws_instance.Udacity-M4[1]: Refreshing state... [id=i-0ec37a074ff5d4590]
+aws_instance.Udacity-M4[0]: Refreshing state... [id=i-0f12b4f3283fd7b15]
+aws_instance.Udacity-T2[0]: Refreshing state... [id=i-001d9ba3cf8031dc5]
+aws_instance.Udacity-T2[3]: Refreshing state... [id=i-0b46822b8509eb46a]
+aws_instance.Udacity-T2[2]: Refreshing state... [id=i-05bc60fb39e254900]
+aws_instance.Udacity-T2[1]: Refreshing state... [id=i-0e9ed33a0f9d5f5a3]
+
+Note: Objects have changed outside of Terraform
+
+Terraform detected the following changes made outside of Terraform since the last "terraform apply":
+
+  # aws_instance.Udacity-M4[0] has changed
+  ~ resource "aws_instance" "Udacity-M4" {
+        id                                   = "i-0f12b4f3283fd7b15"
+      + tags                                 = {}
+        # (30 unchanged attributes hidden)
+
+
+
+
+
+
+        # (6 unchanged blocks hidden)
+    }
+
+  # aws_instance.Udacity-M4[1] has changed
+  ~ resource "aws_instance" "Udacity-M4" {
+        id                                   = "i-0ec37a074ff5d4590"
+      + tags                                 = {}
+        # (30 unchanged attributes hidden)
+
+
+
+
+
+
+        # (6 unchanged blocks hidden)
+    }
+
+  # aws_instance.Udacity-T2[0] has changed
+  ~ resource "aws_instance" "Udacity-T2" {
+        id                                   = "i-001d9ba3cf8031dc5"
+      + tags                                 = {}
+        # (30 unchanged attributes hidden)
+
+
+
+
+
+
+
+        # (7 unchanged blocks hidden)
+    }
+
+  # aws_instance.Udacity-T2[1] has changed
+  ~ resource "aws_instance" "Udacity-T2" {
+        id                                   = "i-0e9ed33a0f9d5f5a3"
+      + tags                                 = {}
+        # (30 unchanged attributes hidden)
+
+
+
+
+
+
+
+        # (7 unchanged blocks hidden)
+    }
+
+  # aws_instance.Udacity-T2[2] has changed
+  ~ resource "aws_instance" "Udacity-T2" {
+        id                                   = "i-05bc60fb39e254900"
+      + tags                                 = {}
+        # (30 unchanged attributes hidden)
+
+
+
+
+
+
+
+        # (7 unchanged blocks hidden)
+    }
+
+  # aws_instance.Udacity-T2[3] has changed
+  ~ resource "aws_instance" "Udacity-T2" {
+        id                                   = "i-0b46822b8509eb46a"
+      + tags                                 = {}
+        # (30 unchanged attributes hidden)
+
+
+
+
+
+
+
+        # (7 unchanged blocks hidden)
+    }
+
+
+Unless you have made equivalent changes to your configuration, or ignored the relevant attributes using ignore_changes, the following plan may   
+include actions to undo or respond to these changes.
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:       
+  - destroy
+
+Terraform will perform the following actions:
+
+  # aws_instance.Udacity-M4[0] will be destroyed
+  # (because index [0] is out of range for count)
+  - resource "aws_instance" "Udacity-M4" {
+      - ami                                  = "ami-05fa00d4c63e32376" -> null
+      - arn                                  = "arn:aws:ec2:us-east-1:230626268602:instance/i-0f12b4f3283fd7b15" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "us-east-1b" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 2 -> null
+      - disable_api_stop                     = false -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - id                                   = "i-0f12b4f3283fd7b15" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "m4.large" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - monitoring                           = false -> null
+      - primary_network_interface_id         = "eni-062aac3965c856722" -> null
+      - private_dns                          = "ip-172-31-81-164.ec2.internal" -> null
+      - private_ip                           = "172.31.81.164" -> null
+      - public_dns                           = "ec2-3-90-43-136.compute-1.amazonaws.com" -> null
+      - public_ip                            = "3.90.43.136" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [
+          - "default",
+        ] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-0b482774a861b5a3d" -> null
+      - tags                                 = {} -> null
+      - tags_all                             = {} -> null
+      - tenancy                              = "default" -> null
+      - user_data_replace_on_change          = false -> null
+      - vpc_security_group_ids               = [
+          - "sg-0ec157b25ac1e0a98",
+        ] -> null
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - maintenance_options {
+          - auto_recovery = "default" -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+          - instance_metadata_tags      = "disabled" -> null
+        }
+
+      - private_dns_name_options {
+          - enable_resource_name_dns_a_record    = false -> null
+          - enable_resource_name_dns_aaaa_record = false -> null
+          - hostname_type                        = "ip-name" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-02f197141ee309ab2" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+        }
+    }
+
+  # aws_instance.Udacity-M4[1] will be destroyed
+  # (because index [1] is out of range for count)
+  - resource "aws_instance" "Udacity-M4" {
+      - ami                                  = "ami-05fa00d4c63e32376" -> null
+      - arn                                  = "arn:aws:ec2:us-east-1:230626268602:instance/i-0ec37a074ff5d4590" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "us-east-1b" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 2 -> null
+      - disable_api_stop                     = false -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - id                                   = "i-0ec37a074ff5d4590" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "m4.large" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - monitoring                           = false -> null
+      - primary_network_interface_id         = "eni-0e3cd550b43294d96" -> null
+      - private_dns                          = "ip-172-31-90-26.ec2.internal" -> null
+      - private_ip                           = "172.31.90.26" -> null
+      - public_dns                           = "ec2-54-86-4-112.compute-1.amazonaws.com" -> null
+      - public_ip                            = "54.86.4.112" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [
+          - "default",
+        ] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-0b482774a861b5a3d" -> null
+      - tags                                 = {} -> null
+      - tags_all                             = {} -> null
+      - tenancy                              = "default" -> null
+      - user_data_replace_on_change          = false -> null
+      - vpc_security_group_ids               = [
+          - "sg-0ec157b25ac1e0a98",
+        ] -> null
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - maintenance_options {
+          - auto_recovery = "default" -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+          - instance_metadata_tags      = "disabled" -> null
+        }
+
+      - private_dns_name_options {
+          - enable_resource_name_dns_a_record    = false -> null
+          - enable_resource_name_dns_aaaa_record = false -> null
+          - hostname_type                        = "ip-name" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-0f8118cccd39006b8" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+        }
+    }
+
+Plan: 0 to add, 0 to change, 2 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+aws_instance.Udacity-M4[1]: Destroying... [id=i-0ec37a074ff5d4590]
+aws_instance.Udacity-M4[0]: Destroying... [id=i-0f12b4f3283fd7b15]
+aws_instance.Udacity-M4[0]: Still destroying... [id=i-0f12b4f3283fd7b15, 10s elapsed]
+aws_instance.Udacity-M4[1]: Still destroying... [id=i-0ec37a074ff5d4590, 10s elapsed]
+aws_instance.Udacity-M4[1]: Still destroying... [id=i-0ec37a074ff5d4590, 20s elapsed]
+aws_instance.Udacity-M4[0]: Still destroying... [id=i-0f12b4f3283fd7b15, 20s elapsed]
+aws_instance.Udacity-M4[1]: Still destroying... [id=i-0ec37a074ff5d4590, 30s elapsed]
+aws_instance.Udacity-M4[0]: Still destroying... [id=i-0f12b4f3283fd7b15, 30s elapsed]
+aws_instance.Udacity-M4[0]: Still destroying... [id=i-0f12b4f3283fd7b15, 40s elapsed]
+aws_instance.Udacity-M4[1]: Still destroying... [id=i-0ec37a074ff5d4590, 40s elapsed]
+aws_instance.Udacity-M4[0]: Destruction complete after 42s
+aws_instance.Udacity-M4[1]: Destruction complete after 42s
+
+Apply complete! Resources: 0 added, 0 changed, 2 destroyed.
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5/Exercise_1        
+$ cd ..
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5
+$ cd Exercise_2/
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5/Exercise_2
+$ terraform plan
+╷
+│ Error: Backend initialization required, please run "terraform init"
+│
+│ Reason: Initial configuration of the requested backend "s3"
+│
+│ The "backend" is the interface that Terraform uses to store state,
+│ perform operations, etc. If this message is showing up, it means that the
+│ Terraform configuration you're using is using a custom configuration for
+│ the Terraform backend.
+│
+│ Changes to backend configurations require reinitialization. This allows
+│ Terraform to set up the new configuration, copy existing state, etc. Please run
+│ "terraform init" with either the "-reconfigure" or "-migrate-state" flags to
+│ use the current configuration.
+│
+│ If the change reason above is incorrect, please verify your configuration
+│ hasn't changed and try again. At this point, no changes to your existing
+│ configuration or state have been made.
+╵
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5/Exercise_2        
+$ terraform init
+
+Initializing the backend...
+
+Successfully configured the backend "s3"! Terraform will automatically
+use this backend unless the backend configuration changes.
+
+Initializing provider plugins...
+- Finding latest version of hashicorp/aws...
+- Finding latest version of hashicorp/archive...
+- Installing hashicorp/aws v4.27.0...
+- Installed hashicorp/aws v4.27.0 (signed by HashiCorp)
+- Installing hashicorp/archive v2.2.0...
+- Installed hashicorp/archive v2.2.0 (signed by HashiCorp)
+
+Terraform has created a lock file .terraform.lock.hcl to record the provider
+selections it made above. Include this file in your version control repository
+so that Terraform can guarantee to make the same selections by default when
+you run "terraform init" in the future.
+
+Terraform has been successfully initialized!
+
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5/Exercise_2        
+$ terraform plan
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:       
+  + create
+
+Terraform will perform the following actions:
+
+  # aws_iam_policy.lambda_logging will be created
+  + resource "aws_iam_policy" "lambda_logging" {
+      + arn         = (known after apply)
+      + description = "IAM policy for logging from a lambda"
+      + id          = (known after apply)
+      + name        = "lambda_logging"
+      + path        = "/"
+      + policy      = jsonencode(
+            {
+              + Statement = [
+                  + {
+                      + Action   = [
+                          + "logs:CreateLogGroup",
+                          + "logs:CreateLogStream",
+                          + "logs:PutLogEvents",
+                        ]
+                      + Effect   = "Allow"
+                      + Resource = "arn:aws:logs:*:*:*"
+                    },
+                ]
+              + Version   = "2012-10-17"
+            }
+        )
+      + policy_id   = (known after apply)
+      + tags_all    = (known after apply)
+    }
+
+  # aws_iam_role.iam_for_lambda will be created
+  + resource "aws_iam_role" "iam_for_lambda" {
+      + arn                   = (known after apply)
+      + assume_role_policy    = jsonencode(
+            {
+              + Statement = [
+                  + {
+                      + Action    = "sts:AssumeRole"
+                      + Effect    = "Allow"
+                      + Principal = {
+                          + Service = "lambda.amazonaws.com"
+                        }
+                      + Sid       = ""
+                    },
+                ]
+              + Version   = "2012-10-17"
+            }
+        )
+      + create_date           = (known after apply)
+      + force_detach_policies = false
+      + id                    = (known after apply)
+      + managed_policy_arns   = (known after apply)
+      + max_session_duration  = 3600
+      + name                  = "iam_for_lambda"
+      + name_prefix           = (known after apply)
+      + path                  = "/"
+      + tags_all              = (known after apply)
+      + unique_id             = (known after apply)
+
+      + inline_policy {
+          + name   = (known after apply)
+          + policy = (known after apply)
+        }
+    }
+
+  # aws_iam_role_policy_attachment.lambda_logs will be created
+  + resource "aws_iam_role_policy_attachment" "lambda_logs" {
+      + id         = (known after apply)
+      + policy_arn = (known after apply)
+      + role       = "iam_for_lambda"
+    }
+
+  # aws_lambda_function.greet_lambda will be created
+  + resource "aws_lambda_function" "greet_lambda" {
+      + architectures                  = (known after apply)
+      + arn                            = (known after apply)
+      + filename                       = "greet_lambda.zip"
+      + function_name                  = "greet_lambda"
+      + handler                        = "greet_lambda.lambda_handler"
+      + id                             = (known after apply)
+      + invoke_arn                     = (known after apply)
+      + last_modified                  = (known after apply)
+      + memory_size                    = 128
+      + package_type                   = "Zip"
+      + publish                        = false
+      + qualified_arn                  = (known after apply)
+      + reserved_concurrent_executions = -1
+      + role                           = (known after apply)
+      + runtime                        = "python3.7"
+      + signing_job_arn                = (known after apply)
+      + signing_profile_version_arn    = (known after apply)
+      + source_code_hash               = "B1q1bu66iIauBgyKOGujU4l0G2wVq51CroooccOcnH8="
+      + source_code_size               = (known after apply)
+      + tags_all                       = (known after apply)
+      + timeout                        = 3
+      + version                        = (known after apply)
+
+      + environment {
+          + variables = {
+              + "greeting" = "Hi there!"
+            }
+        }
+
+      + ephemeral_storage {
+          + size = (known after apply)
+        }
+
+      + tracing_config {
+          + mode = (known after apply)
+        }
+    }
+
+Plan: 4 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+  + greet_lambda = (known after apply)
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+
+Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply"  
+now.
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5/Exercise_2        
+$ terraform apply
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:       
+  + create
+
+Terraform will perform the following actions:
+
+  # aws_iam_policy.lambda_logging will be created
+  + resource "aws_iam_policy" "lambda_logging" {
+      + arn         = (known after apply)
+      + description = "IAM policy for logging from a lambda"
+      + id          = (known after apply)
+      + name        = "lambda_logging"
+      + path        = "/"
+      + policy      = jsonencode(
+            {
+              + Statement = [
+                  + {
+                      + Action   = [
+                          + "logs:CreateLogGroup",
+                          + "logs:CreateLogStream",
+                          + "logs:PutLogEvents",
+                        ]
+                      + Effect   = "Allow"
+                      + Resource = "arn:aws:logs:*:*:*"
+                    },
+                ]
+              + Version   = "2012-10-17"
+            }
+        )
+      + policy_id   = (known after apply)
+      + tags_all    = (known after apply)
+    }
+
+  # aws_iam_role.iam_for_lambda will be created
+  + resource "aws_iam_role" "iam_for_lambda" {
+      + arn                   = (known after apply)
+      + assume_role_policy    = jsonencode(
+            {
+              + Statement = [
+                  + {
+                      + Action    = "sts:AssumeRole"
+                      + Effect    = "Allow"
+                      + Principal = {
+                          + Service = "lambda.amazonaws.com"
+                        }
+                      + Sid       = ""
+                    },
+                ]
+              + Version   = "2012-10-17"
+            }
+        )
+      + create_date           = (known after apply)
+      + force_detach_policies = false
+      + id                    = (known after apply)
+      + managed_policy_arns   = (known after apply)
+      + max_session_duration  = 3600
+      + name                  = "iam_for_lambda"
+      + name_prefix           = (known after apply)
+      + path                  = "/"
+      + tags_all              = (known after apply)
+      + unique_id             = (known after apply)
+
+      + inline_policy {
+          + name   = (known after apply)
+          + policy = (known after apply)
+        }
+    }
+
+  # aws_iam_role_policy_attachment.lambda_logs will be created
+  + resource "aws_iam_role_policy_attachment" "lambda_logs" {
+      + id         = (known after apply)
+      + policy_arn = (known after apply)
+      + role       = "iam_for_lambda"
+    }
+
+  # aws_lambda_function.greet_lambda will be created
+  + resource "aws_lambda_function" "greet_lambda" {
+      + architectures                  = (known after apply)
+      + arn                            = (known after apply)
+      + filename                       = "greet_lambda.zip"
+      + function_name                  = "greet_lambda"
+      + handler                        = "greet_lambda.lambda_handler"
+      + id                             = (known after apply)
+      + invoke_arn                     = (known after apply)
+      + last_modified                  = (known after apply)
+      + memory_size                    = 128
+      + package_type                   = "Zip"
+      + publish                        = false
+      + qualified_arn                  = (known after apply)
+      + reserved_concurrent_executions = -1
+      + role                           = (known after apply)
+      + runtime                        = "python3.7"
+      + signing_job_arn                = (known after apply)
+      + signing_profile_version_arn    = (known after apply)
+      + source_code_hash               = "B1q1bu66iIauBgyKOGujU4l0G2wVq51CroooccOcnH8="
+      + source_code_size               = (known after apply)
+      + tags_all                       = (known after apply)
+      + timeout                        = 3
+      + version                        = (known after apply)
+
+      + environment {
+          + variables = {
+              + "greeting" = "Hi there!"
+            }
+        }
+
+      + ephemeral_storage {
+          + size = (known after apply)
+        }
+
+      + tracing_config {
+          + mode = (known after apply)
+        }
+    }
+
+Plan: 4 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+  + greet_lambda = (known after apply)
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+aws_iam_policy.lambda_logging: Creating...
+aws_iam_role.iam_for_lambda: Creating...
+aws_iam_policy.lambda_logging: Creation complete after 1s [id=arn:aws:iam::230626268602:policy/lambda_logging]
+aws_iam_role.iam_for_lambda: Creation complete after 2s [id=iam_for_lambda]
+aws_iam_role_policy_attachment.lambda_logs: Creating...
+aws_iam_role_policy_attachment.lambda_logs: Creation complete after 0s [id=iam_for_lambda-20220825230930193900000001]
+aws_lambda_function.greet_lambda: Creating...
+aws_lambda_function.greet_lambda: Still creating... [10s elapsed]
+aws_lambda_function.greet_lambda: Creation complete after 16s [id=greet_lambda]
+
+Apply complete! Resources: 4 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+greet_lambda = "greet_lambda"
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5/Exercise_2        
+$ terraform destroy
+aws_iam_policy.lambda_logging: Refreshing state... [id=arn:aws:iam::230626268602:policy/lambda_logging]
+aws_iam_role.iam_for_lambda: Refreshing state... [id=iam_for_lambda]
+aws_iam_role_policy_attachment.lambda_logs: Refreshing state... [id=iam_for_lambda-20220825230930193900000001]
+aws_lambda_function.greet_lambda: Refreshing state... [id=greet_lambda]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:       
+  - destroy
+
+Terraform will perform the following actions:
+
+  # aws_iam_policy.lambda_logging will be destroyed
+  - resource "aws_iam_policy" "lambda_logging" {
+      - arn         = "arn:aws:iam::230626268602:policy/lambda_logging" -> null
+      - description = "IAM policy for logging from a lambda" -> null
+      - id          = "arn:aws:iam::230626268602:policy/lambda_logging" -> null
+      - name        = "lambda_logging" -> null
+      - path        = "/" -> null
+      - policy      = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action   = [
+                          - "logs:CreateLogGroup",
+                          - "logs:CreateLogStream",
+                          - "logs:PutLogEvents",
+                        ]
+                      - Effect   = "Allow"
+                      - Resource = "arn:aws:logs:*:*:*"
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - policy_id   = "ANPATLMTFSW5PMRIDWREV" -> null
+      - tags        = {} -> null
+      - tags_all    = {} -> null
+    }
+
+  # aws_iam_role.iam_for_lambda will be destroyed
+  - resource "aws_iam_role" "iam_for_lambda" {
+      - arn                   = "arn:aws:iam::230626268602:role/iam_for_lambda" -> null
+      - assume_role_policy    = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action    = "sts:AssumeRole"
+                      - Effect    = "Allow"
+                      - Principal = {
+                          - Service = "lambda.amazonaws.com"
+                        }
+                      - Sid       = ""
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - create_date           = "2022-08-25T23:09:37Z" -> null
+      - force_detach_policies = false -> null
+      - id                    = "iam_for_lambda" -> null
+      - managed_policy_arns   = [
+          - "arn:aws:iam::230626268602:policy/lambda_logging",
+        ] -> null
+      - max_session_duration  = 3600 -> null
+      - name                  = "iam_for_lambda" -> null
+      - path                  = "/" -> null
+      - tags                  = {} -> null
+      - tags_all              = {} -> null
+      - unique_id             = "AROATLMTFSW5AL5OYKSBZ" -> null
+    }
+
+  # aws_iam_role_policy_attachment.lambda_logs will be destroyed
+  - resource "aws_iam_role_policy_attachment" "lambda_logs" {
+      - id         = "iam_for_lambda-20220825230930193900000001" -> null
+      - policy_arn = "arn:aws:iam::230626268602:policy/lambda_logging" -> null
+      - role       = "iam_for_lambda" -> null
+    }
+
+  # aws_lambda_function.greet_lambda will be destroyed
+  - resource "aws_lambda_function" "greet_lambda" {
+      - architectures                  = [
+          - "x86_64",
+        ] -> null
+      - arn                            = "arn:aws:lambda:us-east-1:230626268602:function:greet_lambda" -> null
+      - filename                       = "greet_lambda.zip" -> null
+      - function_name                  = "greet_lambda" -> null
+      - handler                        = "greet_lambda.lambda_handler" -> null
+      - id                             = "greet_lambda" -> null
+      - invoke_arn                     = "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:230626268602:function:greet_lambda/invocations" -> null
+      - last_modified                  = "2022-08-25T23:09:48.439+0000" -> null
+      - layers                         = [] -> null
+      - memory_size                    = 128 -> null
+      - package_type                   = "Zip" -> null
+      - publish                        = false -> null
+      - qualified_arn                  = "arn:aws:lambda:us-east-1:230626268602:function:greet_lambda:$LATEST" -> null
+      - reserved_concurrent_executions = -1 -> null
+      - role                           = "arn:aws:iam::230626268602:role/iam_for_lambda" -> null
+      - runtime                        = "python3.7" -> null
+      - source_code_hash               = "B1q1bu66iIauBgyKOGujU4l0G2wVq51CroooccOcnH8=" -> null
+      - source_code_size               = 252 -> null
+      - tags                           = {} -> null
+      - tags_all                       = {} -> null
+      - timeout                        = 3 -> null
+      - version                        = "$LATEST" -> null
+
+      - environment {
+          - variables = {
+              - "greeting" = "Hi there!"
+            } -> null
+        }
+
+      - ephemeral_storage {
+          - size = 512 -> null
+        }
+
+      - tracing_config {
+          - mode = "PassThrough" -> null
+        }
+    }
+
+Plan: 0 to add, 0 to change, 4 to destroy.
+
+Changes to Outputs:
+  - greet_lambda = "greet_lambda" -> null
+
+Do you really want to destroy all resources?
+  Terraform will destroy all your managed infrastructure, as shown above.
+  There is no undo. Only 'yes' will be accepted to confirm.
+
+  Enter a value: yes
+
+aws_lambda_function.greet_lambda: Destroying... [id=greet_lambda]
+aws_lambda_function.greet_lambda: Destruction complete after 1s
+aws_iam_role_policy_attachment.lambda_logs: Destroying... [id=iam_for_lambda-20220825230930193900000001]
+aws_iam_role_policy_attachment.lambda_logs: Destruction complete after 1s
+aws_iam_policy.lambda_logging: Destroying... [id=arn:aws:iam::230626268602:policy/lambda_logging]
+aws_iam_role.iam_for_lambda: Destroying... [id=iam_for_lambda]
+aws_iam_policy.lambda_logging: Destruction complete after 0s
+aws_iam_role.iam_for_lambda: Destruction complete after 0s
+
+Destroy complete! Resources: 4 destroyed.
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5/Exercise_2        
+$ cd ..
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5
+$ cd Exercise_1/
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5/Exercise_1        
+$ terraform destroy
+aws_instance.Udacity-T2[0]: Refreshing state... [id=i-001d9ba3cf8031dc5]
+aws_instance.Udacity-T2[2]: Refreshing state... [id=i-05bc60fb39e254900]
+aws_instance.Udacity-T2[3]: Refreshing state... [id=i-0b46822b8509eb46a]
+aws_instance.Udacity-T2[1]: Refreshing state... [id=i-0e9ed33a0f9d5f5a3]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:       
+  - destroy
+
+Terraform will perform the following actions:
+
+  # aws_instance.Udacity-T2[0] will be destroyed
+  - resource "aws_instance" "Udacity-T2" {
+      - ami                                  = "ami-05fa00d4c63e32376" -> null
+      - arn                                  = "arn:aws:ec2:us-east-1:230626268602:instance/i-001d9ba3cf8031dc5" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "us-east-1b" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 1 -> null
+      - disable_api_stop                     = false -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - id                                   = "i-001d9ba3cf8031dc5" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "t2.micro" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - monitoring                           = false -> null
+      - primary_network_interface_id         = "eni-069f28aeac1cc465f" -> null
+      - private_dns                          = "ip-172-31-81-226.ec2.internal" -> null
+      - private_ip                           = "172.31.81.226" -> null
+      - public_dns                           = "ec2-52-87-182-119.compute-1.amazonaws.com" -> null
+      - public_ip                            = "52.87.182.119" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [
+          - "default",
+        ] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-0b482774a861b5a3d" -> null
+      - tags                                 = {} -> null
+      - tags_all                             = {} -> null
+      - tenancy                              = "default" -> null
+      - user_data_replace_on_change          = false -> null
+      - vpc_security_group_ids               = [
+          - "sg-0ec157b25ac1e0a98",
+        ] -> null
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - credit_specification {
+          - cpu_credits = "standard" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - maintenance_options {
+          - auto_recovery = "default" -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+          - instance_metadata_tags      = "disabled" -> null
+        }
+
+      - private_dns_name_options {
+          - enable_resource_name_dns_a_record    = false -> null
+          - enable_resource_name_dns_aaaa_record = false -> null
+          - hostname_type                        = "ip-name" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-04c3a32f3a293324b" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+        }
+    }
+
+  # aws_instance.Udacity-T2[1] will be destroyed
+  - resource "aws_instance" "Udacity-T2" {
+      - ami                                  = "ami-05fa00d4c63e32376" -> null
+      - arn                                  = "arn:aws:ec2:us-east-1:230626268602:instance/i-0e9ed33a0f9d5f5a3" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "us-east-1b" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 1 -> null
+      - disable_api_stop                     = false -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - id                                   = "i-0e9ed33a0f9d5f5a3" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "t2.micro" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - monitoring                           = false -> null
+      - primary_network_interface_id         = "eni-04e9dd68dab335f5b" -> null
+      - private_dns                          = "ip-172-31-88-245.ec2.internal" -> null
+      - private_ip                           = "172.31.88.245" -> null
+      - public_dns                           = "ec2-184-73-4-228.compute-1.amazonaws.com" -> null
+      - public_ip                            = "184.73.4.228" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [
+          - "default",
+        ] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-0b482774a861b5a3d" -> null
+      - tags                                 = {} -> null
+      - tags_all                             = {} -> null
+      - tenancy                              = "default" -> null
+      - user_data_replace_on_change          = false -> null
+      - vpc_security_group_ids               = [
+          - "sg-0ec157b25ac1e0a98",
+        ] -> null
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - credit_specification {
+          - cpu_credits = "standard" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - maintenance_options {
+          - auto_recovery = "default" -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+          - instance_metadata_tags      = "disabled" -> null
+        }
+
+      - private_dns_name_options {
+          - enable_resource_name_dns_a_record    = false -> null
+          - enable_resource_name_dns_aaaa_record = false -> null
+          - hostname_type                        = "ip-name" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-00f5f82c9eaa6e2f1" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+        }
+    }
+
+  # aws_instance.Udacity-T2[2] will be destroyed
+  - resource "aws_instance" "Udacity-T2" {
+      - ami                                  = "ami-05fa00d4c63e32376" -> null
+      - arn                                  = "arn:aws:ec2:us-east-1:230626268602:instance/i-05bc60fb39e254900" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "us-east-1b" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 1 -> null
+      - disable_api_stop                     = false -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - id                                   = "i-05bc60fb39e254900" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "t2.micro" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - monitoring                           = false -> null
+      - primary_network_interface_id         = "eni-0d1fa8d14d79ecaa4" -> null
+      - private_dns                          = "ip-172-31-93-45.ec2.internal" -> null
+      - private_ip                           = "172.31.93.45" -> null
+      - public_dns                           = "ec2-18-204-215-204.compute-1.amazonaws.com" -> null
+      - public_ip                            = "18.204.215.204" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [
+          - "default",
+        ] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-0b482774a861b5a3d" -> null
+      - tags                                 = {} -> null
+      - tags_all                             = {} -> null
+      - tenancy                              = "default" -> null
+      - user_data_replace_on_change          = false -> null
+      - vpc_security_group_ids               = [
+          - "sg-0ec157b25ac1e0a98",
+        ] -> null
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - credit_specification {
+          - cpu_credits = "standard" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - maintenance_options {
+          - auto_recovery = "default" -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+          - instance_metadata_tags      = "disabled" -> null
+        }
+
+      - private_dns_name_options {
+          - enable_resource_name_dns_a_record    = false -> null
+          - enable_resource_name_dns_aaaa_record = false -> null
+          - hostname_type                        = "ip-name" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-040f29bb79f278c9d" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+        }
+    }
+
+  # aws_instance.Udacity-T2[3] will be destroyed
+  - resource "aws_instance" "Udacity-T2" {
+      - ami                                  = "ami-05fa00d4c63e32376" -> null
+      - arn                                  = "arn:aws:ec2:us-east-1:230626268602:instance/i-0b46822b8509eb46a" -> null
+      - associate_public_ip_address          = true -> null
+      - availability_zone                    = "us-east-1b" -> null
+      - cpu_core_count                       = 1 -> null
+      - cpu_threads_per_core                 = 1 -> null
+      - disable_api_stop                     = false -> null
+      - disable_api_termination              = false -> null
+      - ebs_optimized                        = false -> null
+      - get_password_data                    = false -> null
+      - hibernation                          = false -> null
+      - id                                   = "i-0b46822b8509eb46a" -> null
+      - instance_initiated_shutdown_behavior = "stop" -> null
+      - instance_state                       = "running" -> null
+      - instance_type                        = "t2.micro" -> null
+      - ipv6_address_count                   = 0 -> null
+      - ipv6_addresses                       = [] -> null
+      - monitoring                           = false -> null
+      - primary_network_interface_id         = "eni-06f38ff4d43ccac06" -> null
+      - private_dns                          = "ip-172-31-81-14.ec2.internal" -> null
+      - private_ip                           = "172.31.81.14" -> null
+      - public_dns                           = "ec2-3-90-67-165.compute-1.amazonaws.com" -> null
+      - public_ip                            = "3.90.67.165" -> null
+      - secondary_private_ips                = [] -> null
+      - security_groups                      = [
+          - "default",
+        ] -> null
+      - source_dest_check                    = true -> null
+      - subnet_id                            = "subnet-0b482774a861b5a3d" -> null
+      - tags                                 = {} -> null
+      - tags_all                             = {} -> null
+      - tenancy                              = "default" -> null
+      - user_data_replace_on_change          = false -> null
+      - vpc_security_group_ids               = [
+          - "sg-0ec157b25ac1e0a98",
+        ] -> null
+
+      - capacity_reservation_specification {
+          - capacity_reservation_preference = "open" -> null
+        }
+
+      - credit_specification {
+          - cpu_credits = "standard" -> null
+        }
+
+      - enclave_options {
+          - enabled = false -> null
+        }
+
+      - maintenance_options {
+          - auto_recovery = "default" -> null
+        }
+
+      - metadata_options {
+          - http_endpoint               = "enabled" -> null
+          - http_put_response_hop_limit = 1 -> null
+          - http_tokens                 = "optional" -> null
+          - instance_metadata_tags      = "disabled" -> null
+        }
+
+      - private_dns_name_options {
+          - enable_resource_name_dns_a_record    = false -> null
+          - enable_resource_name_dns_aaaa_record = false -> null
+          - hostname_type                        = "ip-name" -> null
+        }
+
+      - root_block_device {
+          - delete_on_termination = true -> null
+          - device_name           = "/dev/xvda" -> null
+          - encrypted             = false -> null
+          - iops                  = 100 -> null
+          - tags                  = {} -> null
+          - throughput            = 0 -> null
+          - volume_id             = "vol-01839503520e1bc45" -> null
+          - volume_size           = 8 -> null
+          - volume_type           = "gp2" -> null
+        }
+    }
+
+Plan: 0 to add, 0 to change, 4 to destroy.
+
+Do you really want to destroy all resources?
+  Terraform will destroy all your managed infrastructure, as shown above.
+  There is no undo. Only 'yes' will be accepted to confirm.
+
+  Enter a value: yes
+
+aws_instance.Udacity-T2[0]: Destroying... [id=i-001d9ba3cf8031dc5]
+aws_instance.Udacity-T2[1]: Destroying... [id=i-0e9ed33a0f9d5f5a3]
+aws_instance.Udacity-T2[2]: Destroying... [id=i-05bc60fb39e254900]
+aws_instance.Udacity-T2[3]: Destroying... [id=i-0b46822b8509eb46a]
+aws_instance.Udacity-T2[0]: Still destroying... [id=i-001d9ba3cf8031dc5, 10s elapsed]
+aws_instance.Udacity-T2[2]: Still destroying... [id=i-05bc60fb39e254900, 10s elapsed]
+aws_instance.Udacity-T2[1]: Still destroying... [id=i-0e9ed33a0f9d5f5a3, 10s elapsed]
+aws_instance.Udacity-T2[3]: Still destroying... [id=i-0b46822b8509eb46a, 10s elapsed]
+aws_instance.Udacity-T2[3]: Still destroying... [id=i-0b46822b8509eb46a, 20s elapsed]
+aws_instance.Udacity-T2[2]: Still destroying... [id=i-05bc60fb39e254900, 20s elapsed]
+aws_instance.Udacity-T2[0]: Still destroying... [id=i-001d9ba3cf8031dc5, 20s elapsed]
+aws_instance.Udacity-T2[1]: Still destroying... [id=i-0e9ed33a0f9d5f5a3, 20s elapsed]
+aws_instance.Udacity-T2[1]: Still destroying... [id=i-0e9ed33a0f9d5f5a3, 30s elapsed]
+aws_instance.Udacity-T2[2]: Still destroying... [id=i-05bc60fb39e254900, 30s elapsed]
+aws_instance.Udacity-T2[3]: Still destroying... [id=i-0b46822b8509eb46a, 30s elapsed]
+aws_instance.Udacity-T2[0]: Still destroying... [id=i-001d9ba3cf8031dc5, 30s elapsed]
+aws_instance.Udacity-T2[1]: Destruction complete after 32s
+aws_instance.Udacity-T2[0]: Destruction complete after 32s
+aws_instance.Udacity-T2[3]: Destruction complete after 32s
+aws_instance.Udacity-T2[2]: Still destroying... [id=i-05bc60fb39e254900, 41s elapsed]
+aws_instance.Udacity-T2[2]: Destruction complete after 42s
+
+Destroy complete! Resources: 4 destroyed.
+
+mohamed.mekawy@Mohamed-Mekawy MINGW64 ~/Desktop/Data/Udacity/EgFwdAWSArch/P2/design-provision-monitor-aws-Infra-at-scale/Task5/Exercise_1        
+$

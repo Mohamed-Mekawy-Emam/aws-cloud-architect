@@ -1,0 +1,22 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2,0,246.64,2959.68,USD,"Operating system (Linux), Quantity (6), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t3.large)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,254.52,3054.24,USD,"Operating system (Linux), Quantity (6), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (c5.large)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,1338.493,16061.92,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Nodes (1), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront)"
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,456.75,5481,USD,"Hosted Zones (1), Basic Checks Within AWS (50), Number of Elastic Network Interfaces (5)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,23,276,USD,S3 Standard storage (1000 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,482.85,5794.2,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,600.43,7205.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Network Load Balancer,0,761.03,9132.36,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (20 GB per hour), Average number of new TCP connections (5000 per second), Average TCP connection duration (120 seconds), Processed bytes per NLB for UDP (50 GB per hour), Average number of new UDP Flows (10000 per second), Average UDP Flow duration (120 seconds), Processed bytes per NLB for TLS (100 GB per hour), Average number of new TLS connections (2500 per second), Average TLS connection duration (60 seconds)"
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,411,4932,USD,"Number of Metrics (includes detailed and custom metrics) (1000), Number of Dashboards (10), Number of Standard Resolution Alarm Metrics (100), Number of High Resolution Alarm Metrics (100), Number of composite alarms (100)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,1050.01,12600.12,USD,"Data transfer out to internet (10000 GB per month), Data transfer out to origin (10000 GB per month), Number of requests (HTTPS) (10000 per month)"
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,240.9,2890.8,USD,"Number of EC2 instances (6), Number of EIPs per instance (6)"
+,,,,,,,,
+,Total,,,,5865.623,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,EC2 pricing strategy changed from on-demand to 1-year prepaid reserved instances for both web and application servers.,,,,,
+,,,RDS pricing strategy changed from on-demand to 1-year prepaid reserved instances,,,,,
+,,,Route 53 changed number of Elastic Network Instances from 100 to 50 and reduced number of basic checks,,,,,
+,,,Application Load Balancer - reduces number of processed GB per month (EC2 and IP),,,,,
+,,,Network Load Balancer - reduces number of processed GB per month (NLB for TCP),,,,,
