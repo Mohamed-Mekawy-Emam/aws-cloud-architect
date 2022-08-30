@@ -123,6 +123,14 @@ Your budget has been increased
 
 ### Task 6: Destroy the Infrastructure using Terraform
 
+1. Empty S3 bucket created
+
+   * $ aws s3 rm s3://udacity-aws-p2-terraform-230626268602 --recursive
+
+2. Delete S3 bucket
+
+   * $ aws s3api delete-bucket --bucket udacity-aws-p2-terraform-230626268602
+
 <details>
 <summary>Answer</summary>
 
